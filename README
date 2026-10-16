@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#171323">
+  <title>Eliminar cuenta — Aehlic</title>
+  <meta name="description" content="Solicitá la eliminación de tu cuenta Aehlic y de los datos asociados.">
+  <style>
+    :root { color-scheme: light dark; --bg:#f5f3fa; --card:#fff; --ink:#211b2d; --muted:#655d70; --line:#e8e2f0; --accent:#7552d9; --accent-hover:#6040bd; --soft:#eee8fc; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#15121c; --card:#211c2b; --ink:#f4f0fa; --muted:#c2b9d0; --line:#3d344c; --accent:#b7a0ff; --accent-hover:#c7b5ff; --soft:#332747; }
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(circle at 15% 0%, var(--soft), transparent 38%),var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px,calc(100% - 32px)); margin:0 auto; padding:48px 0 32px; }
+    header { display:flex; align-items:center; gap:12px; margin-bottom:26px; }
+    .logo { width:44px; height:44px; display:grid; place-items:center; border-radius:14px; background:var(--soft); color:var(--accent); font-size:25px; font-weight:800; }
+    .brand { font-size:22px; font-weight:750; letter-spacing:-.04em; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:24px; padding:clamp(22px,5vw,42px); box-shadow:0 18px 50px #24113c0b; }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:8px 0 12px; font-size:clamp(30px,5vw,42px); line-height:1.12; letter-spacing:-.045em; }
+    h2 { margin:28px 0 8px; font-size:19px; letter-spacing:-.02em; }
+    p { margin:10px 0; }
+    .muted { color:var(--muted); }
+    .cta { display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:48px; margin:18px 0 8px; padding:12px 18px; border-radius:13px; background:var(--accent); color:white; text-decoration:none; font-weight:750; }
+    .cta:hover { background:var(--accent-hover); }
+    a { overflow-wrap:anywhere; }
+    .steps { padding-left:22px; }
+    .steps li { padding:4px 0 4px 4px; }
+    .note { margin-top:22px; padding:14px 16px; border-radius:14px; background:var(--soft); }
+    footer { padding:20px 4px 0; color:var(--muted); font-size:13px; }
+    footer a { color:inherit; }
+    @media (max-width:520px) { main { padding-top:26px; } .card { border-radius:18px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header aria-label="Aehlic">
+      <div class="logo" aria-hidden="true">A</div>
+      <div class="brand">Aehlic</div>
+    </header>
+
+    <section class="card" aria-labelledby="page-title">
+      <div class="eyebrow">Privacidad y control de datos</div>
+      <h1 id="page-title">Eliminar mi cuenta Aehlic</h1>
+      <p>Podés solicitar la eliminación de tu cuenta de Aehlic y de los datos personales asociados sin volver a instalar la aplicación.</p>
+
+      <a class="cta" href="mailto:aehlic.uy@gmail.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Aehlic&body=Hola%2C%20quiero%20solicitar%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20Aehlic.%0A%0ACorreo%20de%20la%20cuenta%3A%20%0ANombre%20de%20usuario%20(si%20lo%20recuerdo)%3A%20%0A%0AEntiendo%20que%20la%20eliminaci%C3%B3n%20es%20permanente." aria-label="Enviar solicitud por correo electrónico">Solicitar eliminación por correo <span aria-hidden="true">→</span></a>
+      <p class="muted">El botón abre tu aplicación de correo y prepara el mensaje. También podés escribir directamente a <a href="mailto:aehlic.uy@gmail.com">aehlic.uy@gmail.com</a>.</p>
+
+      <h2>Cómo solicitarla</h2>
+      <ol class="steps">
+        <li>Enviá el mensaje desde el correo asociado a tu cuenta Aehlic, si todavía tenés acceso.</li>
+        <li>Indicá el correo con el que te registraste y tu nombre de usuario, si lo recordás. <strong>No envíes tu contraseña ni códigos de verificación.</strong></li>
+        <li>Verificaremos que la solicitud corresponda al titular y te responderemos por correo. Si no podés acceder al correo de registro, explicalo en la solicitud; podremos pedir información adicional para verificar la titularidad.</li>
+      </ol>
+
+      <h2>Qué datos se eliminan</h2>
+      <p>Una vez verificada y procesada la solicitud, eliminaremos la cuenta y los datos personales asociados que Aehlic almacena para esa cuenta, incluidos el perfil, la biblioteca personal, el progreso de lectura, las metas y los datos sociales vinculados que puedan eliminarse con la cuenta.</p>
+      <p>El catálogo compartido de libros puede conservar entradas generales que no identifiquen a la persona. Si fuera necesario conservar información limitada por obligaciones legales, seguridad o prevención de abuso, te informaremos qué información corresponde y el motivo.</p>
+
+      <h2>Plazo de respuesta</h2>
+      <p>Atenderemos la solicitud tan pronto como sea posible y te confirmaremos por correo cuando se haya procesado o si necesitamos información adicional para verificarla.</p>
+
+      <div class="note"><strong>¿Todavía podés entrar a la app?</strong><br>También podés solicitar la eliminación directamente desde Aehlic, en <em>Ajustes → Cuenta online → Eliminar cuenta</em>. La eliminación es permanente.</div>
+    </section>
+
+    <footer>
+      <p>Contacto de privacidad y eliminación de cuentas: <a href="mailto:aehlic.uy@gmail.com">aehlic.uy@gmail.com</a></p>
+      <p>© Aehlic</p>
+    </footer>
+  </main>
+</body>
+</html>
